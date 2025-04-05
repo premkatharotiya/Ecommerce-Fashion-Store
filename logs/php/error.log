@@ -1,0 +1,18 @@
+[04-Apr-2025 15:56:29 UTC] Invalid product slug provided "elementor", does not match bsf_product_slugs
+[04-Apr-2025 15:57:41 UTC] WordPress database error Table 'wp_e_events' already exists for query CREATE TABLE `wp_e_events` (
+			id bigint(20) unsigned auto_increment primary key,
+			event_data text null,
+			created_at datetime not null
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->create_table
+[04-Apr-2025 15:57:41 UTC] WordPress database error Duplicate key name 'created_at_index' for query ALTER TABLE wp_e_events
+    		ADD INDEX `created_at_index` (`created_at`)
+		 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->add_indexes
+[04-Apr-2025 15:57:47 UTC] PHP Warning:  Undefined array key "name" in C:\Users\premk\Local Sites\katpm\app\public\wp-content\plugins\woocommerce\includes\class-wc-install.php on line 931
+[04-Apr-2025 15:57:47 UTC] PHP Warning:  Undefined array key "title" in C:\Users\premk\Local Sites\katpm\app\public\wp-content\plugins\woocommerce\includes\class-wc-install.php on line 933
+[04-Apr-2025 15:57:47 UTC] PHP Warning:  Undefined array key "name" in C:\Users\premk\Local Sites\katpm\app\public\wp-content\plugins\woocommerce\includes\class-wc-install.php on line 931
+[04-Apr-2025 15:57:47 UTC] PHP Warning:  Undefined array key "title" in C:\Users\premk\Local Sites\katpm\app\public\wp-content\plugins\woocommerce\includes\class-wc-install.php on line 933
+[04-Apr-2025 15:57:47 UTC] Invalid product slug provided "woocommerce", does not match bsf_product_slugs
+[04-Apr-2025 15:59:22 UTC] Invalid product slug provided "wpforms-lite", does not match bsf_product_slugs
+[04-Apr-2025 15:59:24 UTC] Invalid product slug provided "wpforms-lite", does not match bsf_product_slugs
+[04-Apr-2025 16:00:58 UTC] Invalid product slug provided "woocommerce", does not match bsf_product_slugs
+[04-Apr-2025 16:01:29 UTC] Invalid product slug provided "suremails", does not match bsf_product_slugs
